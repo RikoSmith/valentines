@@ -26,9 +26,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        name: `Singing Valentines - by NU Choir`,
+        short_name: `Singing Valentines`,
+        description: `Get and share singing valentine with others`,
         start_url: `/`,
         background_color: `#FFFFFF`,
         theme_color: `#888888`,
