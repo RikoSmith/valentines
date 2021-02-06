@@ -41,7 +41,7 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
     <Content speed={0.4} offset={offset} factor={factor}>
       <Inner>
         <div className='about-container'>
-          <h2 className='about' sx={{ color: `White`}}>How does it work?</h2>
+          <h2 className='about' sx={{ color: `White`}}>How to?</h2>
           <p>get and share your valentine song online get and share your valentine song online get and share your valentine song online
           get and share your valentine song online get and share your valentine song onlineget and share your valentine song onlineget and share your valentine song online
           get and share your valentine song online

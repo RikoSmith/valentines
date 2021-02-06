@@ -24,13 +24,14 @@ class Welcome extends Component {
 
   render() {
     
-    
-    
+    const val_link = "http://valentine.publicvm.com?key=" + this.state.url_code
 
     return (
       <div className='link-container'>
-        <h3>This is your link:</h3>
-        <p>{this.state.url_code}</p>
+        <h3>This is your link (you can also preview clicking on it):</h3>
+        <a sx={{textDecoration: `underline !important`}}href={val_link}>COPY THIS LINK</a>
+        <h3>or in text form</h3>
+        <p>{val_link}</p>
       </div>
         );
     }

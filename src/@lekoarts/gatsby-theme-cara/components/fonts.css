@@ -23,7 +23,7 @@ p.under {
 
 h2.about {
     font-size:3rem !important;
-    line-height: 10px
+    line-height: 3rem
 }
 
 div.about-container{
@@ -43,5 +43,6 @@ div.about-container > p{
     height: 100%;
     width: 100%;
     margin: 0;
-    padding: 20px
+    padding: 20px;
+    text-align: center
 }
