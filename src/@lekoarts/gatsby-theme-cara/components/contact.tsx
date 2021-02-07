@@ -25,9 +25,9 @@ const Contact = ({ offset, factor = 1 }: { offset: number; factor?: number }) =>
           <div sx={{width: `100%`}}>
             <h1 sx={{color: `White`}}>GET LINK HERE</h1>
             <form action="/getUrl"> 
-              <input name="name_target" type="text" className="feedback-input" placeholder="Name of Recipient" />   
-              <input name="name_sender" type="text" className="feedback-input" placeholder="Name of Sender" />
-              <textarea name="message" className="feedback-input" placeholder="Message"></textarea>
+              <input name="name_target" maxLength={35} type="text" className="feedback-input" placeholder="Name of Recipient" />   
+              <input name="name_sender" maxLength={35} type="text" className="feedback-input" placeholder="Name of Sender" />
+              <textarea name="message" maxLength={140} className="feedback-input" placeholder="Message"></textarea>
               <select className="select" name="song">
                 <option value="0">Adore You</option>
                 <option value="1">Diamonds</option>

@@ -103,10 +103,11 @@ type SVGProps = {
   icon: IconType
   left: string
   top: string
-  hiddenMobile?: boolean
+  hiddenMobile?: boolean,
+  opacity: number
 }
 
-const SVG = ({ stroke = false, color = ``, width, icon, left, top, hiddenMobile = false }: SVGProps) => (
+const SVG = ({ stroke = false, color = ``, width, icon, left, top, hiddenMobile = false, opacity = 1 }: SVGProps) => (
   <svg
     sx={{
       position: `absolute`,
@@ -117,6 +118,7 @@ const SVG = ({ stroke = false, color = ``, width, icon, left, top, hiddenMobile 
       width,
       left,
       top,
+      opacity: opacity
     }}
     viewBox={icons[icon].viewBox}
   >
