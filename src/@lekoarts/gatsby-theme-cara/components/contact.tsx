@@ -22,7 +22,7 @@ const Contact = ({ offset, factor = 1 }: { offset: number; factor?: number }) =>
     <Content speed={0.4} offset={offset} factor={factor}>
       <Inner>
         <div sx={{display: `flex`, justifyContent: `start`}}>
-          <div sx={{width: `100%`}}>
+          <div sx={{width: `120%`}}>
             <h1 sx={{color: `White`}}>GET LINK HERE</h1>
             <form action="/getUrl"> 
               <input name="name_target" maxLength={35} type="text" className="feedback-input" placeholder="Name of Recipient" />   
