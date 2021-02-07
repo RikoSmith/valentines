@@ -33,7 +33,6 @@ const Contact = ({ offset, factor = 1 }: { offset: number; factor?: number }) =>
                 <option value="1">Diamonds</option>
                 <option value="2">Я Это Ты</option>
                 <option value="3">Just The Two of Us</option>
-                <option value="4">BEST SONG EVER</option>
               </select>
               <input type="submit" value="GET LINK"/>
             </form>
