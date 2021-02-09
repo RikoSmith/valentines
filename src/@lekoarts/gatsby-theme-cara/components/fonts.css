@@ -35,6 +35,13 @@ div.about-container > p{
     color: #ffffff
 }
 
+div.about-container > p,
+div.about-container > h2,
+div.about-container > ul,
+div.about-container > li {
+    text-shadow: 0px 5px 5px #E75286;
+}
+
 
 .link-container{
     height: 100%;

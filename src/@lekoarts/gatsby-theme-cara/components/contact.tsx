@@ -7,6 +7,7 @@ import Content from "../elements/content"
 import SVG from "./svg"
 import { UpDown, UpDownWide, waveAnimation } from "../styles/animations"
 import Footer from "./footer"
+import Form from "./form"
 // @ts-ignore
 import ContactMDX from "../sections/contact"
 import './form.css';
@@ -24,18 +25,7 @@ const Contact = ({ offset, factor = 1 }: { offset: number; factor?: number }) =>
         <div sx={{display: `flex`, justifyContent: `start`}}>
           <div sx={{width: `120%`}}>
             <h1 sx={{color: `White`}}>GET LINK HERE</h1>
-            <form action="/getUrl"> 
-              <input name="name_target" maxLength={35} type="text" className="feedback-input" placeholder="Name of Recipient" />   
-              <input name="name_sender" maxLength={35} type="text" className="feedback-input" placeholder="Name of Sender" />
-              <textarea name="message" maxLength={140} className="feedback-input" placeholder="Message"></textarea>
-              <select className="select" name="song">
-                <option value="0">Adore You</option>
-                <option value="1">Diamonds</option>
-                <option value="2">Я Это Ты</option>
-                <option value="3">Just The Two of Us</option>
-              </select>
-              <input type="submit" value="GET LINK"/>
-            </form>
+            <Form />
           </div>
         </div>
       </Inner>

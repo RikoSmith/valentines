@@ -56,7 +56,7 @@ const Hero = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
     <Content sx={{ variant: `texts.bigger`, color: `White` }} speed={0.4} offset={offset} factor={factor}>
       <Inner>
         <h1 className='hero' sx={{ color: `White`, fontSize: `80px`}}>Singing Valentines</h1>
-        <p className='under'>get and share your valentine song online</p>
+        <p className='under'>Order yours online!</p>
         {/* <Intro /> */}
       </Inner>
     </Content>

@@ -13,7 +13,7 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
   <div>
     <Divider
       bg="#E75286"
-      clipPath="polygon(0 16%, 100% 4%, 100% 82%, 0 94%)"
+      clipPath="polygon(0 15%, 100% 0%, 100% 85%, 0 100%)"
       speed={0.2}
       offset={offset}
       factor={factor}
@@ -41,17 +41,21 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
     <Content speed={0.4} offset={offset} factor={factor}>
       <Inner>
         <div className='about-container'>
-          <h2 className='about' sx={{ color: `White`}}>How to?</h2>
-          <p>get and share your valentine song online get and share your valentine song online get and share your valentine song online
-          get and share your valentine song online get and share your valentine song onlineget and share your valentine song onlineget and share your valentine song online
-          get and share your valentine song online
+          <h2 className='about' sx={{ color: `White`}}>About</h2>
+          <p>Dear friends, <br/>
+            Nothing can stop us from spreading love, even this long lasting quarantine and miles that separate us!
+            We are back with Singing Valentines, but this year it's going to be even bigger, because you can order an online Singing Valentine to anyone you want no matter where they are now!
+            So go ahead and express your love and appreciation to your friends, colleagues, soulmates, family, professors, and students - to whomever you want!
           </p>
+          <h3><b>How to?</b></h3>
           <ul>
-            <li>Step 1</li>
-            <li>Step 1</li>
-            <li>Step 1</li>
-            <li>Step 1</li>
-            <li>Step 1</li>
+            <li>Step 1: Fill in the form below</li>
+            <li>Step 2: Choose a song</li>
+            <li>Step 3: You can add a comment/wish/joke/whatever you want</li>
+            <li>Step 4: Get the link to a Singing Valentine with your chosen song</li>
+            <li>Step 5: Send the link to the recipient</li>
+            <li>Step 6 (optional): In case you want to stay anonymous, fill in this google form</li>
+            <li>Step 7: Remember to keep spreading the love!</li>
           </ul>
         </div>
       </Inner>
