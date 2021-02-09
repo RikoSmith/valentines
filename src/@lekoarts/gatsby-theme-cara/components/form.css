@@ -7,7 +7,7 @@ form { max-width:420px; margin:0px auto; }
   color:white;
   font-family: Helvetica, Arial, sans-serif;
   font-weight:100;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 22px;
   background-color: transparent;
   border:1px solid #ffffff;
@@ -55,7 +55,14 @@ textarea {
 
 
 
+.disclaimer {
+  font-size: 12px;
+  text-shadow: 0px 5px 5px #E75286;
+}
 
+.contact-header {
+  text-shadow: 0px 5px 5px #E75286;
+}
 
 
 

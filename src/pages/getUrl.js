@@ -28,10 +28,23 @@ class Welcome extends Component {
 
     return (
       <div className='link-container'>
-        <h3>This is your link (you can also preview clicking on it):</h3>
+        <h2>This is your link (you can also preview clicking on it):</h2>
         <a sx={{textDecoration: `underline !important`}}href={val_link}>COPY THIS LINK</a>
         <h3>or in text form</h3>
         <p>{val_link}</p>
+        <br />
+        <br/>
+        <hr />
+
+        <br />
+        <h3>It would be kindly appreciated if you supported us with donations ♡</h3>
+        <p>
+        Card requisites: <br/>
+        Kaspi Bank <br/>
+        5169 4971 6643 5952 <br/>
+        Leila Mukhtar <br/>
+        (87077099396)<br/>
+        </p>
       </div>
         );
     }

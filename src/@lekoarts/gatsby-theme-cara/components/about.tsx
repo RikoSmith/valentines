@@ -54,7 +54,8 @@ const About = ({ offset, factor = 1 }: { offset: number; factor?: number }) => (
             <li>Step 3: You can add a comment/wish/joke/whatever you want</li>
             <li>Step 4: Get the link to a Singing Valentine with your chosen song</li>
             <li>Step 5: Send the link to the recipient</li>
-            <li>Step 6 (optional): In case you want to stay anonymous, fill in this google form</li>
+            <li>Step 6 (optional): In case you want to stay anonymous, fill in this <a href="https://docs.google.com/forms/d/e/1FAIpQLSf7Kxpt5T_BUsphtoj6gSUB7JUEf2qGWqeWsDyrs3AR9nNtyw/viewform?usp=sf_link">google form</a></li>
+            <li>[ Deadline for the form is 12:00 PM, February 14 ]</li>
             <li>Step 7: Remember to keep spreading the love!</li>
           </ul>
         </div>

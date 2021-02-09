@@ -24,7 +24,7 @@ const Contact = ({ offset, factor = 1 }: { offset: number; factor?: number }) =>
       <Inner>
         <div sx={{display: `flex`, justifyContent: `start`}}>
           <div sx={{width: `120%`}}>
-            <h1 sx={{color: `White`}}>GET LINK HERE</h1>
+            <h1 sx={{color: `White`}} className="contact-header">GET LINK HERE</h1>
             <Form />
           </div>
         </div>
