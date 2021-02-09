@@ -32,7 +32,8 @@ div.about-container{
 div.about-container > p{
     padding: 0px;
     margin: 0;
-    color: #ffffff
+    color: #ffffff;
+    font-size: 16px
 }
 
 div.about-container > p,
@@ -40,6 +41,7 @@ div.about-container > h2,
 div.about-container > ul,
 div.about-container > li {
     text-shadow: 0px 5px 5px #E75286;
+    font-size: 16px
 }
 
 
@@ -49,4 +51,49 @@ div.about-container > li {
     margin: 0;
     padding: 20px;
     text-align: center
+}
+
+@media (max-width: 480px) {
+    div.about-container > p{
+        font-size: 14px
+    }
+    
+    div.about-container > p,
+    div.about-container > h2,
+    div.about-container > ul,
+    div.about-container > li {
+        text-shadow: 0px 5px 5px #E75286;
+        font-size: 14px
+    }
+}
+
+
+
+@media (max-width: 576px) {
+    div.about-container > p{
+        font-size: 14px
+    }
+    
+    div.about-container > p,
+    div.about-container > h2,
+    div.about-container > ul,
+    div.about-container > li {
+        text-shadow: 0px 5px 5px #E75286;
+        font-size: 14px
+    }
+}
+
+
+@media (max-width: 850px) {
+    div.about-container > p{
+        font-size: 14px
+    }
+    
+    div.about-container > p,
+    div.about-container > h2,
+    div.about-container > ul,
+    div.about-container > li {
+        text-shadow: 0px 5px 5px #E75286;
+        font-size: 14px
+    }
 }
