@@ -27,9 +27,10 @@ const Projects = ({ offset, factor = 2 }: { offset: number; factor?: number }) =
             h2: { gridColumn: `-1/1`, color: `white !important` },
           }}
         >
-          <ProjectsMDX 
+          <ProjectsMDX
           />
         </div>
+        <h1 sx={{ textAlign: `center`, marginTop: `50px` }}>&#x2193; Scroll Down to Order &#x2193;</h1>
       </Inner>
     </Content>
     <Divider speed={0.1} offset={offset} factor={factor}>
