@@ -1,4 +1,4 @@
-import React, { Component} from 'react'
+import React, { Component } from 'react'
 import { encode, decode } from 'url-safe-base64'
 var qs = require('qs')
 
@@ -23,31 +23,31 @@ class Welcome extends Component {
   }
 
   render() {
-    
+
     const val_link = "http://valentine.publicvm.com?key=" + this.state.url_code
 
     return (
       <div className='link-container'>
         <h2>This is your link (you can also preview clicking on it):</h2>
-        <a sx={{textDecoration: `underline !important`}}href={val_link}>COPY THIS LINK</a>
+        <a sx={{ textDecoration: `underline !important` }} href={val_link}>COPY THIS LINK</a>
         <h3>or in text form</h3>
         <p>{val_link}</p>
         <br />
-        <br/>
+        <br />
         <hr />
 
         <br />
         <h3>It would be kindly appreciated if you supported us with donations ♡</h3>
         <p>
-        Card requisites: <br/>
-        Kaspi Bank <br/>
-        5169 4971 6643 5952 <br/>
-        Leila Mukhtar <br/>
-        (87077099396)<br/>
+          Card requisites: <br />
+        Kaspi Bank <br />
+        4400 4301 4315 7649 <br />
+        Kazbek Iliyas <br />
+        (87022157644)<br />
         </p>
       </div>
-        );
-    }
+    );
+  }
 }
 
 export default Welcome
